@@ -1,0 +1,97 @@
+
+@media print {
+  @page {
+    size: A4 portrait;
+    max-height:100%;
+    max-width:100%;
+    margin:0;
+    padding:20px !important;
+  }
+  body{
+    margin:0;
+    padding:20px !important;
+  }
+}
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+#logo {
+  text-align: left;
+  margin-bottom: 7px;
+}
+#logo img {
+  width: 100px;
+}
+h1 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #5D6975;
+  font-size: 1.5em;
+  line-height: 1em;
+  font-weight: normal;
+  text-align: center;
+}
+#project {
+  overflow:auto;
+}
+#project p {
+  color: #001028;
+  font-size: 12px !important;
+  font-weight: 600;
+  line-height: 0.8;
+}
+#project p span{
+  color: #888;
+  font-size: 12px !important;
+  font-weight: 500;
+  text-align: right;
+  padding-right:10px;
+  display: inline-block;
+  width:100px !important;
+}
+#company {
+  float: right;
+  text-align: right;
+}
+#project div,
+#company div {
+  white-space: nowrap;        
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+table th,
+table td {
+  text-align: center;
+  font-size: 12px;
+}
+table th {
+  padding: 5px 20px;
+  color: #5D6975;
+  border-bottom: 1px solid #C1CED9;
+  white-space: nowrap;        
+  font-weight: 800;
+}
+table td {
+  padding: 10px;
+}
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 14px;
+}
+table td.grand {
+  border-top: 1px solid #5D6975;
+  font-size: 14px;
+  font-weight: bolder;
+}
